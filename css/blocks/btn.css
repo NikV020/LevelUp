@@ -1,0 +1,48 @@
+.btn,
+a.btn {
+	display: inline-block;
+
+	/* height: 51px;
+	line-height: 51px; */
+
+	width: 260px;
+	min-height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 18px;
+
+	padding-left: 31px;
+	padding-right: 28px;
+	background:  rgb(131, 131, 4);
+	color: #fff;
+    font-family: 'MullerMedium', sans-serif;
+	font-size: 16px;
+    text-align: center;
+	border-radius: 30px;
+	transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+	opacity: 0.8;
+	color: #fff;
+}
+
+.btn-big,
+a.btn-big {
+	min-height: 65px;
+}
+
+@media (max-width: 991px) {
+	.btn,
+	a.btn {
+		min-height: 41px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.btn-big,
+	a.btn-big {
+		min-height: 55px;
+	}
+}

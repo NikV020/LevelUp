@@ -11,14 +11,19 @@
     align-items: center;
     padding-bottom: 35px;
     font-size: 35px;
-    color: blueviolet;
+    color: rgb(131, 131, 4);
 }
 .promo-row {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.promo-wrapper-subtitle {
+.promo-wrapper-subtitle li {
     width: 550px;
-    color: rgb(131, 131, 4);
+    color: #550199;
+}
+
+.promo-btn {
+    margin-left: 125px;
+    margin-top: 35px; 
 }
