@@ -1,0 +1,51 @@
+.structure {
+    background: rgba(207, 207, 207, 0.1);
+}
+
+.structure-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.structure-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-row-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle img {
+    display: block;
+    width:100%;
+    border-radius: 50%;
+    width: 100px; /* задаете свои размеры */
+    height: 100px;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px; /* создание отступов */
+    border-radius: 50%;
+}
+.circle-text {
+    margin-left: 10px;
+    width: 250px;
+    color: #550199;
+}
+
+.circle-btn {
+    margin-top: 15px;
+}
