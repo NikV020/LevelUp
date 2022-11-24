@@ -7,6 +7,14 @@ body {
 
 /* Utility */
 
+.hide {
+
+}
+
+.show {
+	
+}
+
 .none {
 	display: none !important;
 }
