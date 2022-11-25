@@ -1,5 +1,6 @@
 .promo {
-    background-color: #d6d6d6;
+    background: rgb(142,96,204);
+    background: linear-gradient(90deg, rgba(142,96,204,1) 48%, rgba(0,212,255,1) 100%);
     padding-top: 25px;
     padding-bottom: 62px;
     width: 100%;
