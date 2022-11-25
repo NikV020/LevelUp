@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="./css/blocks/structure.css">
     <link rel="stylesheet" href="./css/blocks/speak.css">
     <link rel="stylesheet" href="./css/blocks/promotion.css">
+    <link rel="stylesheet" href="./css/blocks/modal.css">
     
     <title>LevelUp</title>
 </head>
 <body>
-    <section class="promo">
+    <section class="promo hide">
         <div class="container">
             <div class="promo-header">
                 Level Up
@@ -33,7 +34,7 @@
                         <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cum ipsum adipisci modi necessitatibus ratione vero sequi obcaecati earum odio velit dolorem quos atque, numquam similique officia iste ducimus saepe.</li>
                     </ol>   
                     <div class="promo-btn">
-                        <a href="#" class="btn">Заказать</a>
+                        <a href="#order" class="btn">Заказать</a>
                     </div>
                 </div>
 
@@ -41,7 +42,7 @@
         </div>
     </section>
 
-    <section class="structure">
+    <section class="structure hide">
         <div class="container">
             <div class="structure-row">
 
@@ -58,7 +59,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
 
@@ -73,7 +74,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
 
@@ -88,7 +89,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
 
@@ -111,7 +112,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
 
@@ -126,7 +127,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
                     
@@ -141,7 +142,7 @@
                         </div>
 
                         <div class="circle-btn">
-                            <a href="#" class="btn">Заказать</a>
+                            <a href="#order" class="btn">Заказать</a>
                         </div>
                     </div>
 
@@ -151,7 +152,7 @@
         </div>
     </section>
 
-    <section class="speak">
+    <section class="speak hide">
         <div class="speak-wrapper-subtitle">
             <div class="speak-wrapper">
 
@@ -202,7 +203,7 @@
         </div>
     </section>
 
-    <section class="promotion">
+    <section class="promotion hide">
         <div class="promotion-wrapper-title">
             <div class="promotion-wrapper">
                 <div class="promotion-product">
@@ -225,9 +226,31 @@
 
             
             <div class="promotion-btn">
-                <a href="#" class="btn btn-big">Заказать</a>
+                <a href="#order" class="btn btn-big">Заказать</a>
             </div>
         </div>
+
+    </section>
+
+    <section id="order" class="modal">
+        <div class="container">
+            <div class="promo-header">
+                Level Up
+            </div>
+    
+            <div class="promotion__timer">
+                <div class="promotion__title">До конца заказа:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="minutes">30</span>
+                        минут
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
 
     </section>
 
