@@ -31,6 +31,7 @@ a.btn:hover {
 
 .btn-big,
 a.btn-big {
+	width: 1400px;
 	min-height: 65px;
 }
 

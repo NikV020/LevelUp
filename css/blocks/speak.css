@@ -1,5 +1,7 @@
 
 .speak {
+    background: rgb(150,224,198);
+    background: linear-gradient(90deg, rgba(150,224,198,1) 100%, rgba(255,255,255,1) 100%);
     margin-top: 68px;
 }
 
