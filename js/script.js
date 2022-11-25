@@ -37,6 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function getDinamicInformation() {
         let phone = document.getElementById('tel');
+        let error = document.getElementById('erphone');
 
         // Проверяем фокус
         phone.addEventListener('focus', _ => {
@@ -52,6 +53,17 @@ window.addEventListener('DOMContentLoaded', () => {
         if(!/\d/.test(e.key))
             e.preventDefault();
         });
+
+        // phone.addEventListener('input', () => {
+      
+        //     if(phone.value !== '#') {
+        //       error.classList.add('show');
+        //       error.classList.remove('hide');
+        //     }else {         
+        //       error.classList.add('hide');
+        //       error.classList.remove('show');
+        //     }
+        // })
     
     }
     getDinamicInformation();
