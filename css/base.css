@@ -8,16 +8,13 @@ body {
 /* Utility */
 
 .hide {
-
+	display: none;
 }
 
 .show {
-	
+	display: block;
 }
 
-.none {
-	display: none !important;
-}
 
 .visually-hidden {
 	position: absolute;
